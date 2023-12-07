@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    front size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(183, 206, 240);
+}
+.header, .footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+.conteiner{
+    display: flex;
+    margin-left: 30%;
+}
+.box{
+    width: 19%;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+}
+.box:hover{
+    background:rgb(183, 206, 240);
+    border-radius: 4px;
+    width: 15rem;
+}
+
+
+.numerica {
+    width: 50%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+
+.numerica fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.numerica legend {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.numerica input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+
+.numerica input[readonly] {
+    background-color: #f4f4f4;
+    cursor: not-allowed;
+}
+.botao:hover {
+    background-color: #333;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
